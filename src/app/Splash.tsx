@@ -47,7 +47,7 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
         <h1 className="text-4xl font-extrabold tracking-tight text-center">VIRA</h1>
 
         <p className="text-center text-lg text-primary-600">
-          An angry zoo visitor has come up to share his greviences, talk to him and calm him down. 
+          An angry zoo visitor has come up to share his greviences, talk to him, calm him down and resolve the situation.
         </p>
 
         {isLoading ? (

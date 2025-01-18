@@ -5,7 +5,7 @@ import Splash from "./Splash";
 import { useState } from "react";
 
 import Header from "../components/ui/header";
-import ZaheenLogo from '../assets/logos/zaheen_logo.png'; // Adjust the path as necessary
+import ZaheenLogo from "@/app/assets/logos/zaheen_logo.png";
 import Image from 'next/image';
 const showSplashPage = process.env.NEXT_PRIVATE_SHOW_SPLASH;
 
@@ -27,9 +27,11 @@ export default function Home() {
       <div className="text-center mb-8">
       </div>
       {streamUrl && <LiveView url={streamUrl} />}
-      <div className="flex flex-col items-center gap-2 mt-auto mb-4">
+      
+      <div className="flex flex-col items-center gap-2 mb-8">
+        <Image src={ZaheenLogo} alt="Zaheen Systems Logo" width={150} height={50} />
+      </div>
         
-        </div>
     </main>
   );
 }
@@ -43,6 +45,7 @@ export default function Home() {
       <div className="flex flex-col items-center gap-2 mt-auto mb-4">
         <Image src={ZaheenLogo} alt="Zaheen Systems Logo" width={150} height={50} />
       </div>
+      public\zaheen_logo.png
     </main>
   );
 }
