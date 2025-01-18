@@ -47,7 +47,7 @@ const Splash: React.FC<SplashProps> = ({ handleReady }) => {
         <h1 className="text-4xl font-extrabold tracking-tight text-center">VIRA</h1>
 
         <p className="text-center text-lg text-primary-600">
-          This is a sales training simulation. You'll interact with Carter, our AI assistant. Carter will play the role of a frustrated customer. Your task is to practice your sales skills by understanding the customer's issues and presenting solutions.
+          An angry zoo visitor has come up to share his greviences, talk to him and calm him down. 
         </p>
 
         {isLoading ? (
